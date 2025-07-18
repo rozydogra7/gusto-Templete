@@ -395,13 +395,24 @@ margin-top: 30px;
     background: #d43031;
     color: white;
 }
+@media (max-width:1200px){
+    .head h2 {
+    font-size: 24px;
+}
+}
 @media (max-width: 992px){
     .head h2 {
     font-size: 18px; 
 }
+.sec-main-info {
+    padding: 0px;
+}
 .para p {
-    line-height: 18px;
-    font-size: 13px;
+    font-size: 14px;
+}
+.paragraph-sec-4 p {
+    padding: 18px;
+    
 }
 .main-work {
     padding: 45px;
@@ -451,6 +462,13 @@ margin-top: 30px;
 .head h2{
     font-size: 16px;
 }
+.heading-sec-3 {
+    margin-top: 0px;
+}
+.heading-sec-3 {
+    text-align: center;
+    margin-top: -8px;
+}
 .paragraph-sec-4 p {
     font-size: 15px;
 }
@@ -489,5 +507,88 @@ h2.dinner-sec-tittle.text-uppercase {
 }
 .img-slid-1 img {
     width: 250px;
+}
+.paragraph-sec-4 p {
+
+    padding: 15px;
+
+}
+.sec-5-main-info {
+    margin-top: 0px;
+}
+.main-sec-6-info {
+    margin-top: 0px;
+}
+.haedin-sec-8 h2{
+    font-size: 25px;
+}
+.sec-8-para p{
+    font-size: 10px;
+}
+.head-sec-9 h3 {
+   
+    font-size: 18px;
+}
+.head-sec-9-1 h3 {
+    
+    font-size: 18px;
+}
+.head-sec-9-2 h3 {
+    
+    font-size: 18px;
+}
+.content-text-part-1 p {
+    
+    font-size: 15px;
+}
+.content-text-part p {
+  
+    font-size: 15px;
+}
+
+}
+@media (max-width:577px){
+    .head h2{
+        font-size: 14px;
+    }
+    .paragraph-sec-4 p{
+        font-size: 10px;
+    }
+    .sec-9-main-info {
+    padding: 20px;
+}   
+}
+@media (max-width:361px){
+    .heading-pargraph h2 {
+    font-size: 4em;
+}
+.sec-9-heading {
+    font-size: 18px;
+    color: #aaa;
+}
+.sec-tittle-sec-9 h3::after {
+    left: 65px;
+    width: 30%;
+}
+.form-group {
+    padding: 8px;
+}
+.button-part{
+    margin-top: -15px;
+}
+.head-sec-9 h3::after {
+    
+    width: 33%;
+    
+}
+.head-sec-9-1 h3::after {
+    width: 33%;
+}
+.head-sec-9-2 h3::after {
+    width: 33%;
+}
+.section-tittle h2::after {
+    
+    left: 40%;
 }
 }
