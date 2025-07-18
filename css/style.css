@@ -23,7 +23,6 @@
     width: 100%;
     background-position: center;
     background-size: cover;
-    height: 100vh;
     position: relative;
     overflow: hidden;
     z-index: 0;
@@ -40,7 +39,9 @@
     z-index: -1;
 
 }
-
+.sec-main-info{
+    padding: 50px;
+}
 .heading-pargraph h2 {
     color: #ffffff !important;
     font-size: 7em;
@@ -62,7 +63,7 @@
 /* section-part-3 */
 .heading-sec-3 {
     text-align: center;
-    padding: 100px;
+    margin-top: 80px;
 }
 
 .heading-sec-3 h3 {
@@ -84,7 +85,7 @@
     text-align: center;
     font-size: 25px;
     font-weight: 600;
-    color: lightslategrey;
+    color: #333;
 }
 
 .img-bg img {
@@ -96,13 +97,13 @@
 }
 /* sec-4-main-css */
 .main-work{
-    padding: 80px;
+    padding: 40px;
 }
 .sec-4{
     background: #77777721;
 }
 .main-row-sec{
-    margin-top: 90px;
+    margin-top: 50px;
 }
 .imges-work img{
     width: 100%;
@@ -112,7 +113,10 @@
     position: relative;
 
 }
-
+.heading-sec-4{
+    font-size: 40px;
+    text-align: center;
+}
 .heading-sec-4 h3::after {
     position: absolute;
     content: "";
@@ -120,11 +124,14 @@
     height: 2px;
     width: 70px;
     bottom: -8px;
-    left: 1%;
+    left: 35%;
 }
 .paragraph-sec-4 p{
     color: grey;
+    padding: 40px;
+    text-align: center;
 }
+
 /* sec-5 mian-css */
 .menu-section{
     text-align: center;
@@ -141,6 +148,9 @@
     width: 65px;
     bottom: -8px;
     left: 47%;
+}
+.sec-5-main-info{
+    margin-top: 55px;
 }
 .menu-section h2 {
     font-size: 22px;
@@ -233,7 +243,7 @@ margin-top: 30px;
 }
 /* sec-8 */
 .sec-8-main-info {
-    margin-top: 90px;
+    margin-top: 55px;
 }
 .haedin-sec-8 h2{
         font-size: 40px;
@@ -250,7 +260,7 @@ margin-top: 30px;
     left: 125px;
 }
 .sec-8-para{
-    padding: 50px;
+    padding: 25px;
 }
 .sec-8-para p{
     color: #444;
@@ -384,4 +394,100 @@ margin-top: 30px;
 .btn-custom:hover{
     background: #d43031;
     color: white;
+}
+@media (max-width: 992px){
+    .head h2 {
+    font-size: 18px; 
+}
+.para p {
+    line-height: 18px;
+    font-size: 13px;
+}
+.main-work {
+    padding: 45px;
+}
+.sec-5-main-info{
+    padding: 45px;
+}
+.haedin-sec-8 h2::after {
+   
+    left: 55px;
+}
+.haedin-sec-8 h2 {
+    font-size: 30px;
+   
+}
+.sec-8-para {
+    font-size: 14px;
+    line-height: 18px;
+    padding: 0px;
+}
+.head-sec-9 h3::after {
+    left: 100px;
+}
+.head-sec-9-1 h3::after {
+    left: 100px;
+}
+.head-sec-9-2 h3::after {
+    left: 100px;
+}
+.sec-tittle-sec-9 h3::after {
+    left: 300px;
+}
+.sec-8-main-info {
+    margin-top: 50px;
+}
+.heading-sec-3 {
+    padding: 50px;
+}
+.main-row-sec {
+    margin-top: 50px;
+}
+}
+@media (max-width: 768px){
+    .heading-pargraph h2 {
+    padding: 115px;
+}
+.head h2{
+    font-size: 16px;
+}
+.paragraph-sec-4 p {
+    font-size: 15px;
+}
+.heading-sec-4 h3 {
+    font-size: 18px;
+}
+.main-work {
+    padding: 0px;
+}
+.menu-section h2 {
+    font-size: 16px;
+}
+.menu-section h2::after {
+    width: 55px;
+    left: 35%;
+}
+.menu-item {
+    margin-top: 30px;
+}
+.menu-item-name {
+    font-size: 13px;
+}
+.menu-item-pra {
+    font-size: 12px;
+    width: 100%;
+}
+.dinner-menu h2::after {
+    width: 42px;
+}
+h2.dinner-sec-tittle.text-uppercase {
+    font-size: 18px;
+}
+.main-sec-6-info .menu-item-pra{
+     font-size: 12px;
+    width: 100%;
+}
+.img-slid-1 img {
+    width: 250px;
+}
 }
