@@ -591,4 +591,19 @@ h2.dinner-sec-tittle.text-uppercase {
     
     left: 40%;
 }
+.head h2{
+    font-size: 25px;
+}
+.para p{
+    font-size: 18px;
+}
+.paragraph-sec-4 p{
+    font-size: 12px;
+}
+.sec-8-para p{
+    font-size: 12px;
+}
+.haedin-sec-8 h2::after {
+    width: 30%;
+}
 }
